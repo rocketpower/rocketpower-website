@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import Container from '../Layout/Container';
 
 const Headline = styled.div`
-  margin-top: 4.25rem;
+  margin-top: 7.5rem;
   font-family: Mosk, sans-serif;
 `;
 

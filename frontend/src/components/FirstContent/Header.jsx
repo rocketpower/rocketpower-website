@@ -17,12 +17,16 @@ const Menu = styled.div`
   justify-content: flex-end;
 `;
 
+const Logo = styled.img`
+  vertical-align: middle;
+`;
+
 export const Header = () => {
   return(
     <Nav>
       <Container row>
         <NavItem href="/">
-          <img src="planet.png" alt="rocketpower logo" />
+          <Logo src="planet.png" alt="rocketpower logo" height="70px" />
         </NavItem>
         <Menu>
           <NavItem href="/">
