@@ -1,11 +1,13 @@
 import React from 'react';
+import { ThemeProvider } from 'styled-components';
 import { FirstContent } from './components/FirstContent/FirstContent';
+import DefaultTheme from './styles/themes/DefaultTheme';
 
 const App = () => {
   return (
-    <React.Fragment>
+    <ThemeProvider theme={DefaultTheme}>
       <FirstContent />
-    </React.Fragment>
+    </ThemeProvider>
   );
 }
 
