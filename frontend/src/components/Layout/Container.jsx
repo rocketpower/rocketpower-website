@@ -4,6 +4,7 @@ const Container = styled.div`
   display: flex;
   margin: 0 auto;
   flex-grow: 1;
+  justify-content: center;
   
   flex-direction: ${props => {
     if (props.row) return 'row';
