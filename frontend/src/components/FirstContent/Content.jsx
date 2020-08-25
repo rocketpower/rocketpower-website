@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import Container from '../Layout/Container';
 
 const Headline = styled.div`
-  margin-top: 7.5rem;
+  margin-top: 2rem;
   font-family: Mosk, sans-serif;
 `;
 
@@ -24,6 +24,7 @@ const Planet = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 1rem;
 `;
 
 export const Content = () => {
