@@ -9,7 +9,7 @@ const Section = styled.section`
   min-height: 100vh;
 `;
 
-export const FirstContent = () => {
+const FirstContent = () => {
   return(
     <Section>
       <Header />
@@ -17,3 +17,5 @@ export const FirstContent = () => {
     </Section>
   );
 }
+
+export default FirstContent;

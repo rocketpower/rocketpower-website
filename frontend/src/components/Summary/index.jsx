@@ -6,8 +6,8 @@ const Section = styled.section`
   display: flex;
   background-color: ${props => props.theme.colors.primary};
   color: white;
-  padding-top: 15rem;
-  padding-bottom: 30rem;
+  padding-top: 12rem;
+  padding-bottom: 24rem;
 `;
 
 const Content = styled.p`
@@ -17,7 +17,7 @@ const Content = styled.p`
   line-height: 1.5;
 `;
 
-export const Summary = () => {
+const Summary = () => {
   return(
     <Section>
       <Container>
@@ -28,3 +28,5 @@ export const Summary = () => {
     </Section>
   );
 }
+
+export default Summary;
