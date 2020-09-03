@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import Container from '../Layout/Container';
+import { Logo } from '../../assets/images';
 
 const Nav = styled.nav`
   padding: 1rem 0;
@@ -17,16 +18,12 @@ const Menu = styled.div`
   justify-content: flex-end;
 `;
 
-const Logo = styled.img`
-  vertical-align: middle;
-`;
-
 export const Header = () => {
   return(
     <Nav>
       <Container row>
         <NavItem href="/">
-          <Logo src="planet.png" alt="rocketpower logo" height="70px" />
+          <img src={Logo} alt="rocketpower logo" height="70px" />
         </NavItem>
         <Menu>
           <NavItem href="/">

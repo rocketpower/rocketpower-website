@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import Container from '../Layout/Container';
+import { Planet } from '../../assets/images';
 
 const Headline = styled.div`
   margin-top: 2rem;
@@ -19,7 +20,7 @@ const Subtitle = styled.h2`
   margin-bottom: 1.5rem;
 `;
 
-const Planet = styled.div`
+const PlanetContainer = styled.div`
   flex-grow: 1;
   display: flex;
   justify-content: center;
@@ -34,9 +35,9 @@ export const Content = () => {
         <Title>Lorem ipsum dolor sit amet</Title>
         <Subtitle>Sed ut perspiciatis unde omnis iste natus error sit voluptatem et quasi architecto beatae vitae dicta sunt explicabo.</Subtitle>
       </Headline>
-      <Planet>
-        <img src="../logo.png" alt="planet" />
-      </Planet>
+      <PlanetContainer>
+        <img src={Planet} alt="logo" />
+      </PlanetContainer>
     </Container>
   );
 }
