@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { Javascript, Html5, Css3, Reactjs, Angular, Sass, Python, Node, DotnetCore, Aws } from '../../assets/images';
+import { Javascript, Html5, Css3, Reactjs, Angular, Sass, Python, Node, DotnetCore, Aws } from '../../../assets/images';
 
 const Wrapper = styled.div`
   display: flex;

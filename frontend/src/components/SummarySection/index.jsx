@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import Container from '../Layout/Container';
+import Container from '../../Layout/Container';
 
 const Section = styled.section`
   display: flex;
@@ -17,7 +17,7 @@ const Content = styled.p`
   line-height: 1.5;
 `;
 
-const Summary = () => {
+const SummarySection = () => {
   return(
     <Section>
       <Container>
@@ -29,4 +29,4 @@ const Summary = () => {
   );
 }
 
-export default Summary;
+export default SummarySection;

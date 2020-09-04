@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import Container from '../Layout/Container';
+import Container from '../../Layout/Container';
 import Skills from './Skills';
 import Technologies from './Technologies'
 
@@ -8,7 +8,7 @@ const Section = styled.section`
   margin-top: -13rem;
 `;
 
-const Services = () => {
+const ServicesSection = () => {
   return(
     <Section>
       <Container>
@@ -19,4 +19,4 @@ const Services = () => {
   );
 }
 
-export default Services;
+export default ServicesSection;

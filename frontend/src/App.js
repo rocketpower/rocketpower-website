@@ -1,16 +1,16 @@
 import React from 'react';
 import { ThemeProvider } from 'styled-components';
 import DefaultTheme from './styles/themes/DefaultTheme';
-import FirstContent from './components/FirstContent';
-import Summary from './components/Summary';
-import Services from './components/Services';
+import FirstSection from './components/Sections/First';
+import SummarySection from './components/Sections/Summary';
+import ServicesSection from './components/Sections/Services';
 
 const App = () => {
   return (
     <ThemeProvider theme={DefaultTheme}>
-      <FirstContent />
-      <Summary />
-      <Services />
+      <FirstSection />
+      <SummarySection />
+      <ServicesSection />
     </ThemeProvider>
   );
 }
