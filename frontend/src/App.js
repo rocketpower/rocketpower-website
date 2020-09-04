@@ -1,9 +1,9 @@
 import React from 'react';
 import { ThemeProvider } from 'styled-components';
 import DefaultTheme from './styles/themes/DefaultTheme';
-import FirstSection from './components/Sections/First';
-import SummarySection from './components/Sections/Summary';
-import ServicesSection from './components/Sections/Services';
+import FirstSection from './components/FirstSection';
+import SummarySection from './components/SummarySection';
+import ServicesSection from './components/ServicesSection';
 
 const App = () => {
   return (

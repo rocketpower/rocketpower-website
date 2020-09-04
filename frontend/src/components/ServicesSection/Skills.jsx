@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { CloudComputing, Design, RocketLaunch } from '../../../assets/images';
+import { CloudComputing, Design, RocketLaunch } from '../../assets/images';
 
 const Card = styled.div`
   flex-basis: 33%;

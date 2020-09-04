@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import Container from '../../Layout/Container';
+import Container from '../Layout/Container';
 
 const Section = styled.section`
   display: flex;

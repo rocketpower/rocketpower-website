@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
-import Container from '../../Layout/Container';
-import { Planet } from '../../../assets/images';
+import Container from '../Layout/Container';
+import { Planet } from '../../assets/images';
 
 const Headline = styled.div`
   margin-top: 2rem;
