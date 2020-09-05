@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
-import { Header } from './Header';
-import { Content } from './Content';
+import Header from './Header';
+import Content from './Content';
 
 const Section = styled.section`
   display: flex;

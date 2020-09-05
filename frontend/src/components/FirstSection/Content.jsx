@@ -28,7 +28,7 @@ const PlanetContainer = styled.div`
   padding: 1rem;
 `;
 
-export const Content = () => {
+const Content = () => {
   return(
     <Container>
       <Headline>
@@ -41,3 +41,5 @@ export const Content = () => {
     </Container>
   );
 }
+
+export default Content;

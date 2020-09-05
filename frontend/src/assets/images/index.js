@@ -1,5 +1,6 @@
 export const Logo = require('./logo.png');
 export const Planet = require('./planet.png');
+export const Launch = require('./launch.svg');
 
 // skills
 export const CloudComputing = require('./skills/cloud-computing.svg');

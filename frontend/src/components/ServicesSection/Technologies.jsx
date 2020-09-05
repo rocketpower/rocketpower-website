@@ -4,7 +4,7 @@ import { Javascript, Html5, Css3, Reactjs, Angular, Sass, Python, Node, DotnetCo
 
 const Wrapper = styled.div`
   display: flex;
-  padding: 7rem 0;
+  padding-top: 7rem;
   justify-content: center;
   flex-wrap: wrap;
 `;

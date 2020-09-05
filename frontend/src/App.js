@@ -4,6 +4,7 @@ import DefaultTheme from './styles/themes/DefaultTheme';
 import FirstSection from './components/FirstSection';
 import SummarySection from './components/SummarySection';
 import ServicesSection from './components/ServicesSection';
+import ContactSection from './components/ContactSection';
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <FirstSection />
       <SummarySection />
       <ServicesSection />
+      <ContactSection />
     </ThemeProvider>
   );
 }

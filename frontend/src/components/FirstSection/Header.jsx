@@ -18,7 +18,7 @@ const Menu = styled.div`
   justify-content: flex-end;
 `;
 
-export const Header = () => {
+const Header = () => {
   return(
     <Nav>
       <Container row>
@@ -34,3 +34,5 @@ export const Header = () => {
     </Nav>
   );
 }
+
+export default Header;
